@@ -6,5 +6,6 @@ namespace Macademy\Jumpstart\Api;
 
 interface CategoryInterface
 {
-    public function getName();
+    public function getName() : string;
 }
+// Interface
