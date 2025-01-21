@@ -17,3 +17,4 @@ class Product
         return $this->category->getName();
     }
 }
+// product class
