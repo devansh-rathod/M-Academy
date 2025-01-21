@@ -19,3 +19,4 @@ class Index implements HttpGetActionInterface
         return $this->pageFactory->create();
     }
 }
+// index.php
