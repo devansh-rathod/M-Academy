@@ -10,8 +10,9 @@ class Category implements CategoryInterface
 {
     protected $name;
 
-    public function getName()
+    public function getName():string 
     {
-        return $this->category->getName();
+        return 'Category Name';
     }
 }
+// class preferance and services 
